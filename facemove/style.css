@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+/* .face {
+  background-color: hsl(15, 73%, 70%);
+  margin: 40% 0 0 30px;
+  width: 140px;
+  height: 140px;
+  border-radius: 75px;
+}
+.eyecontainer {
+  height: 60px;
+  padding-top: 30px;
+  
+} */
+/* 
+.left {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 25px;
+  
+}
+
+.right {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  
+  margin-left: 80px;
+} */
+
+/* .left_pupil {
+  background-color: rgb(7, 6, 6);
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.right_pupil {
+  background-color: rgb(7, 6, 6);
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 16px;
+} */
+
+/* this is another way */
+.face {
+  position: absolute;
+  background-color: bisque;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.eye_container {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.eye {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.pupil {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 10px 0px 10px 20px;
+}
